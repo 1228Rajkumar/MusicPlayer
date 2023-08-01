@@ -1,0 +1,151 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="full-page">
+    <header class="menu-bar">
+      <i class="fa-solid fa-house" id="home"></i>
+      <i class="fa-solid fa-magnifying-glass" id="search"></i>
+    </header>
+    <div class="app-name">
+      <h1>My Music</h1>
+    </div>
+    <div class="music-list">
+      <div class="Trend-clo">
+        <h2>Treading Song</h2>
+        <div class="Trend-list listview">
+
+        </div>
+      </div>
+      <div class="sid-clo">
+        <div class="sid-headline">
+          <img src="photo/Sid_Sriram.jpg">
+          <h2>Sid Sriram Hits</h2>
+        </div>
+        <div class="sid-list listview">
+
+        </div>
+
+      </div>
+      <div class="sid-clo aniruth">
+        <div class="sid-headline">
+          <img src="photo/ani.jpg">
+          <h2>Aniruth Hits</h2>
+        </div>
+        <div class="ani-list listview">
+
+        </div>
+
+      </div>
+      <div class="sid-clo raj">
+        <div class="sid-headline">
+          <img src="photo/rajlogo.png">
+          <h2>Rajkumar Hits</h2>
+        </div>
+        <div class="raj-list listview">
+
+        </div>
+
+      </div>
+    </div>
+    <!-- Search-bar -->
+    <div class="search-page">
+      <div class="search-name">
+        <h1>Search</h1>
+      </div>
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="What do you want to listen to?" id="search-input">
+      </div>
+      <div class="search-song">
+
+      </div>
+    </div>
+    <div class="song-playing-layout">
+      <div class="playing-heading">
+        <i class="fa-solid fa-chevron-down"></i>
+        <div class="playing-detail">
+          <p>PLAYING FROM PLAYLIST</p>
+          <P>Trending Now Tamil</P>
+        </div>
+      </div>
+      <div class="banner">
+        <figure class="photo">
+          <img src="photo/Love-Today.jpg" alt="">
+        </figure>
+      </div>
+      <!-- <div class="now-playing-song"></div> -->
+      <div class="details-box">
+        <div class="details">
+          <div class="now-playing-song-name">
+            <h2>Pacha Elai</h2>
+          </div>
+          <div class="now-playing-song-aretist">Yuvan Shankar Raja</div>
+        </div>
+        <div class="favorite-btn">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+      <div class="play-track">
+        <input type="range" max="100" min="1" value="0" class="song-range">
+        <i class="fa-solid fa-volume-high "></i>
+        <div class="volume">
+          <input type="range" max="100" min="1" value="99" class="sound-range">
+        </div>
+      </div>
+      <div class="time-track">
+        <span class="now-time">00:00</span><span class="total-time">00:00</span>
+      </div>
+      <div class="control">
+        <div class="shuffle-btn">
+          <i class="fa-solid fa-shuffle once"></i>
+        </div>
+        <div class="back-btn">
+          <i class="fa-sharp fa-solid fa-backward-step"></i>
+        </div>
+        <div class="play-btn">
+          <i class="fa-solid fa-circle-play"></i>
+        </div>
+        <div class="forward-btn">
+          <i class="fa-solid fa-forward-step"></i>
+        </div>
+        <div class="repeat-btn">
+          <i class="fa-solid fa-rotate-right"></i>
+        </div>
+      </div>
+    </div>
+    <div class="small-play">
+      <div class="small-photo">
+        <img src="photo/Love-Today.jpg" alt="">
+      </div>
+      <div class="small-details">
+        <div class="sml-song-name">
+          <h4>Pacha Elai</h4>
+        </div>
+        <div class="sml-song-aretist">
+          <p>Yuvan Shankar Raja</p>
+        </div>
+        <input type="range" max="100" min="1" value="0" class="sm-song-range">
+      </div>
+      <div class="repeat-btn sm-repeat">
+        <i class="fa-solid fa-rotate-right"></i>
+      </div>
+      <div class="play-btn sm-play">
+        <i class="fa-solid fa-circle-play"></i>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
